@@ -30,8 +30,6 @@ env.bak/
 venv.bak/
 .venv/
 
-# ダウンロードしたPDFファイル
-*.pdf
 
 # IDE関連
 .vscode/
