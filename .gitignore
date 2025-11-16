@@ -87,8 +87,6 @@ dmypy.json
 *.orig
 *.rej
 
-# 100MBを超えるファイル（GitHubの制限）
-**/*.pdf
-!downloaded_pdfs/*.pdf
-# 100MBを超えるPDFファイルは手動で除外
-downloaded_pdfs/*逆向工程*.pdf
+# ダウンロードしたPDFファイル（GitHubの100MB制限を考慮）
+downloaded_pdfs/
+*.pdf
