@@ -1,0 +1,15 @@
+# TechFreePDF 依存パッケージ
+
+# HTTP非同期リクエスト
+aiohttp>=3.8.0
+
+# HTML解析
+beautifulsoup4>=4.11.0
+
+# PDF処理（タイトル抽出機能用）
+# pypdf と PyPDF2 のどちらか一方をインストールすれば動作します
+pypdf>=3.0.0
+
+# オプション: pypdfが利用できない場合の代替
+# PyPDF2>=3.0.0
+
